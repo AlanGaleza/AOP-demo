@@ -1,6 +1,5 @@
 #
-#Sun Jul 29 13:50:27 CEST 2018
-com.aop.aspect.AopExpressions=org.springframework.stereotype.Component
+#Sun Jul 29 14:09:43 CEST 2018
 com.aop.config.Config=org.springframework.stereotype.Component
 com.aop.aspect.MyCloudLogAsyncAspect=org.springframework.stereotype.Component
 com.aop.dao.MembershipDAO=org.springframework.stereotype.Component
