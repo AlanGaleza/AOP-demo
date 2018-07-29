@@ -16,6 +16,8 @@ public class Main {
         Account myAccount = new Account();
         theAccountDAO.addAccount(myAccount, true);
         theAccountDAO.doWork();
+        theAccountDAO.setName("john");
+        String accName = theAccountDAO.getName();
 
         theMembershipDAO.addSillyMember();
         theMembershipDAO.goToSleep();
