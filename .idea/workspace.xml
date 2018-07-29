@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77d76c1a-86e1-42a7-992b-be53959ebeab" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AfterThrowingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AfterFinallyApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AfterReturningApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AfterReturningApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aop/aspect/MyLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aop/aspect/MyLoggingAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aop/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aop/dao/AccountDAO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,20 +40,29 @@
       <file leaf-file-name="AfterThrowingApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AfterThrowingApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="68">
+              <caret line="9" selection-start-line="9" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLoggingAspect.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyLoggingAspect.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aop/aspect/MyLoggingAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+            <state relative-caret-position="314">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AfterFinallyApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AfterFinallyApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -86,20 +93,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyApiAnalyticsAspect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/aop/aspect/MyApiAnalyticsAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AccountDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aop/dao/AccountDAO.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,8 +117,8 @@
       <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aop/config/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/AfterThrowingApp.java" />
         <option value="$PROJECT_DIR$/src/AfterReturningApp.java" />
         <option value="$PROJECT_DIR$/src/com/aop/aspect/MyLoggingAspect.java" />
+        <option value="$PROJECT_DIR$/src/AfterFinallyApp.java" />
       </list>
     </option>
   </component>
@@ -280,7 +274,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AfterThrowingApp">
+  <component name="RunManager" selected="Application.AfterFinallyApp">
+    <configuration name="AfterFinallyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AfterFinallyApp" />
+      <module name="AOP-learning" />
+    </configuration>
     <configuration name="AfterReturningApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AfterReturningApp" />
       <module name="AOP-learning" />
@@ -315,9 +313,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.AfterReturningApp" />
       <item itemvalue="Application.AfterThrowingApp" />
+      <item itemvalue="Application.AfterFinallyApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AfterFinallyApp" />
         <item itemvalue="Application.AfterThrowingApp" />
         <item itemvalue="Application.AfterReturningApp" />
         <item itemvalue="Application.Main" />
@@ -336,12 +336,12 @@
       <updated>1532712442171</updated>
       <workItem from="1532712443730" duration="3026000" />
       <workItem from="1532854310133" duration="4000" />
-      <workItem from="1532854401948" duration="12647000" />
+      <workItem from="1532854401948" duration="13581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15677000" />
+    <option name="totallyTimeSpent" value="16611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -511,16 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aop/config/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -548,6 +538,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AfterThrowingApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" selection-start-line="9" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aop/config/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aop/aspect/MyLoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AfterReturningApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -555,20 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AfterThrowingApp.java">
+    <entry file="file://$PROJECT_DIR$/src/AfterFinallyApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aop/aspect/MyLoggingAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
