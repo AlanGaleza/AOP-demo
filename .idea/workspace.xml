@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77d76c1a-86e1-42a7-992b-be53959ebeab" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AfterFinallyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AroundApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AroundHandleExceptionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AroundWithLoggerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aop/service/TrafficFortuneService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AOP-learning/AfterFinallyApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AOP-learning/AfterFinallyApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AOP-learning/META-INF/spring.components" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AOP-learning/META-INF/spring.components" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AOP-learning/com/aop/aspect/MyLoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AOP-learning/com/aop/aspect/MyLoggingAspect.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aop/aspect/MyLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aop/aspect/MyLoggingAspect.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,62 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AfterReturningApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AfterReturningApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AfterThrowingApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AfterThrowingApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" selection-start-line="9" selection-end-line="30" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyLoggingAspect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/aop/aspect/MyLoggingAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AfterFinallyApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AfterFinallyApp.java">
+      <file leaf-file-name="TrafficFortuneService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/aop/service/TrafficFortuneService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AopExpressions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/aop/aspect/AopExpressions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,25 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyCloudLogAsyncAspect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/aop/aspect/MyCloudLogAsyncAspect.java">
+      <file leaf-file-name="MyLoggingAspect.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/aop/aspect/MyLoggingAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/aop/dao/AccountDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="323">
+              <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,23 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/aop/model/Account.java">
+      <file leaf-file-name="AroundHandleExceptionApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AroundHandleExceptionApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/aop/config/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -131,10 +60,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>myLogger</find>
+      <find>System.out.println</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>myLogger</replace>
+      <replace>myLogger.info</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -142,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/aop/config/Config.java" />
         <option value="$PROJECT_DIR$/src/com/aop/dao/MemberDAO.java" />
         <option value="$PROJECT_DIR$/src/com/aop/dao/MemberShipDAO.java" />
         <option value="$PROJECT_DIR$/src/com/aop/dao/MembershipDAO.java" />
@@ -158,8 +96,13 @@
         <option value="$PROJECT_DIR$/src/com/aop/dao/AccountDAO.java" />
         <option value="$PROJECT_DIR$/src/AfterThrowingApp.java" />
         <option value="$PROJECT_DIR$/src/AfterReturningApp.java" />
-        <option value="$PROJECT_DIR$/src/com/aop/aspect/MyLoggingAspect.java" />
         <option value="$PROJECT_DIR$/src/AfterFinallyApp.java" />
+        <option value="$PROJECT_DIR$/src/AroundApp.java" />
+        <option value="$PROJECT_DIR$/src/AroundWIthLoggerApp.java" />
+        <option value="$PROJECT_DIR$/src/com/aop/config/Config.java" />
+        <option value="$PROJECT_DIR$/src/com/aop/service/TrafficFortuneService.java" />
+        <option value="$PROJECT_DIR$/src/com/aop/aspect/MyLoggingAspect.java" />
+        <option value="$PROJECT_DIR$/src/AroundHandleExceptionApp.java" />
       </list>
     </option>
   </component>
@@ -226,14 +169,7 @@
               <item name="AOP-learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="aop" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AOP-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AOP-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,25 +210,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AfterFinallyApp">
+  <component name="RunManager" selected="Application.AroundHandleExceptionApp">
     <configuration name="AfterFinallyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AfterFinallyApp" />
-      <module name="AOP-learning" />
-    </configuration>
-    <configuration name="AfterReturningApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AfterReturningApp" />
       <module name="AOP-learning" />
     </configuration>
     <configuration name="AfterThrowingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AfterThrowingApp" />
       <module name="AOP-learning" />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="AroundApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AroundApp" />
       <module name="AOP-learning" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="AroundHandleExceptionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AroundHandleExceptionApp" />
+      <module name="AOP-learning" />
+    </configuration>
+    <configuration name="AroundWithLoggerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AroundWithLoggerApp" />
+      <module name="AOP-learning" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -310,17 +247,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.AfterReturningApp" />
       <item itemvalue="Application.AfterThrowingApp" />
       <item itemvalue="Application.AfterFinallyApp" />
+      <item itemvalue="Application.AroundApp" />
+      <item itemvalue="Application.AroundWithLoggerApp" />
+      <item itemvalue="Application.AroundHandleExceptionApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AroundHandleExceptionApp" />
+        <item itemvalue="Application.AroundWithLoggerApp" />
+        <item itemvalue="Application.AroundApp" />
         <item itemvalue="Application.AfterFinallyApp" />
         <item itemvalue="Application.AfterThrowingApp" />
-        <item itemvalue="Application.AfterReturningApp" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -336,12 +275,12 @@
       <updated>1532712442171</updated>
       <workItem from="1532712443730" duration="3026000" />
       <workItem from="1532854310133" duration="4000" />
-      <workItem from="1532854401948" duration="13581000" />
+      <workItem from="1532854401948" duration="17315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16611000" />
+    <option name="totallyTimeSpent" value="20345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -353,13 +292,13 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32960895" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.32960895" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
@@ -384,6 +323,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
@@ -511,16 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aop/model/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -538,30 +472,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AfterThrowingApp.java">
+    <entry file="file://$PROJECT_DIR$/src/AfterFinallyApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AroundWithLoggerApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="9" selection-start-line="9" selection-end-line="30" selection-end-column="5" />
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aop/config/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aop/aspect/MyLoggingAspect.java">
+    <entry file="file://$PROJECT_DIR$/src/AroundApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="10" selection-start-line="10" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -572,10 +520,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AfterFinallyApp.java">
+    <entry file="file://$PROJECT_DIR$/src/AfterThrowingApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" selection-start-line="9" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aop/service/TrafficFortuneService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AroundHandleExceptionApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aop/aspect/MyLoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
