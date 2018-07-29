@@ -1,0 +1,6 @@
+#
+#Sun Jul 29 11:18:11 CEST 2018
+com.aop.config.Config=org.springframework.stereotype.Component
+com.aop.aspect.LoggingAspect=org.springframework.stereotype.Component
+com.aop.dao.MembershipDAO=org.springframework.stereotype.Component
+com.aop.dao.AccountDAO=org.springframework.stereotype.Component
