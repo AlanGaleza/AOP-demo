@@ -27,7 +27,11 @@ public class AccountDAO {
         return true;
     }
 
-    public List<Account> findAccounts() {
+    public List<Account> findAccounts(boolean tripWire) {
+
+        if(tripWire) {
+            throw new RuntimeException("EXC APPEAR");
+        }
 
         List<Account> myAccounts = new ArrayList<>();
 
